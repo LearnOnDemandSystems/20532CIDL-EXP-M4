@@ -217,7 +217,7 @@ At the top-left corner of the portal, click \+ New. In the New blade that displa
 
 
 ### In the SQL Database blade:
-In the SQL Database blade that displays, locate the Database name box and provide the value db20532.  
+In the SQL Database blade that displays, locate the Database name box and provide the value db20532. 
 Click Pricing Tier.
 
 #### :camera: SCREENSHOT
@@ -229,8 +229,8 @@ Click Pricing Tier.
 
 
 ### Select the Basic option
-In the Choose your pricing tier blade that displays, click the View all link and then select the Basic option.  
-Click Select to close the blade.
+In the Choose your pricing tier blade that displays, select the Basic tile.  
+Click Apply to close the blade.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -262,7 +262,7 @@ j. In the New server blade, click Select.
 
 
 ### Create the SQL database and server
-In the SQL database blade, locate the Resource group section and select the existing 20532 resource group. Click Create to create the SQL database and server. This may take a few minutes.
+In the SQL database blade, make sure the Resource Group section is set to Use existing and that your pre-existing Resource Group is selected. Click Create to create the SQL database and server. This may take a few minutes.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -763,9 +763,8 @@ c. Click the New button.
 In the Create App Service dialog, perform the following steps:  
 a. Ensure that you have an auto-generated Web App name. If not, enter a globally unique name.  
 b. Select your Azure subscription.  
-c. Click the New button immediately to the right of the Resource Group dialog box.  
-d. In the Resource Group dialog box, provide the value TestSQL.  
-e. Click the New button immediately to the right of the App Service Plan dialog box.
+c. In the Resource Group dialog box, verify that your pre-existing Resource Group is specified.  
+d. Click the New button immediately to the right of the App Service Plan dialog box.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -991,6 +990,9 @@ On Visual Studio Server Explorer, expand Data Connections then sv20532\[your nam
 
 ### In the dbo.Events table, view the single record.
 Right click Events table, and then select Show Table Data. In the dbo.Events table, view the single record.
+
+#### :bulb: KNOWLEDGE
+Note: If an error results, try closing and reopening Visual Studio.
 
 #### :camera: SCREENSHOT
 >LODSProperties
